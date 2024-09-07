@@ -5,6 +5,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+.sobre > p {
+    padding-bottom: 15px;
+}
 .comentarios {
     display: flex;
     flex-direction: column;
