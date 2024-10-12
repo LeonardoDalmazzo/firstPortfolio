@@ -6,5 +6,4 @@
     <li>HTML5 (Hypertext Markup Language 5)</li>
     <li>CSS3 (Cascading Style Sheets)</li>
     <li>JS (JavaScript)</li>
-    <li></li>
 </ul>
