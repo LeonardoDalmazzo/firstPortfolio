@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<html lang="pt/BR">
 
 <head>
 
@@ -11,42 +12,41 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>ADML</title>
-  <html lang="pt/BR">
 
-  </html>
-  <style>
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: "Montserrat", sans-serif
-    }
+</html>
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat", sans-serif
+  }
 
-    .w3-row-padding img {
-      margin-bottom: 12px
-    }
+  .w3-row-padding img {
+    margin-bottom: 12px
+  }
 
-    /* Set the width of the sidebar to 120px */
-    .w3-sidebar {
-      width: 120px;
-      background: #222;
-    }
+  /* Set the width of the sidebar to 120px */
+  .w3-sidebar {
+    width: 120px;
+    background: #222;
+  }
 
-    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+  /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+  #main {
+    margin-left: 120px
+  }
+
+  /* Remove margins from "page content" on small screens */
+  @media only screen and (max-width: 600px) {
     #main {
-      margin-left: 120px
+      margin-left: 0
     }
-
-    /* Remove margins from "page content" on small screens */
-    @media only screen and (max-width: 600px) {
-      #main {
-        margin-left: 0
-      }
-    }
-  </style>
+  }
+</style>
 </head>
 
 <body class="w3-black">
@@ -235,68 +235,76 @@
     </div>
 
     <!-- Contact Section Refatorada -->
-<div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contate-me</h2>
-    <hr style="width:200px" class="w3-opacity">
+    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+      <h2 class="w3-text-light-grey">Contate-me</h2>
+      <hr style="width:200px" class="w3-opacity">
 
-    <!-- Informações de contato -->
-    <div class="w3-section w3-row-padding">
+      <!-- Informações de contato -->
+      <div class="w3-section w3-row-padding">
         <div class="w3-half">
-            <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right w3-red"></i> Brasil &gt; São Paulo - SP</p>
-            <p>
-                <i class="fa fa-whatsapp fa-fw w3-xxlarge w3-margin-right w3-green"></i>
-                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=55011991795884" target="_blank" style="color: inherit;">+55 (11) 9 9179-5884</a>
-            </p>
-            <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right w3-teal"></i> leleomesquita@mail.com</p>
+          <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right w3-red"></i> Brasil &gt; São Paulo - SP</p>
+          <p>
+            <i class="fa fa-whatsapp fa-fw w3-xxlarge w3-margin-right w3-green"></i>
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=55011991795884" target="_blank"
+              style="color: inherit;">+55 (11) 9 9179-5884</a>
+          </p>
+          <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right w3-teal"></i> leleomesquita@mail.com</p>
         </div>
 
         <!-- Formulário -->
         <div class="w3-half">
-            <form action="https://formsubmit.co/leonardodalmazzo.dev@gmail.com" method="POST" autocomplete="off">
-                <input type="text" name="_honey" style="display:none">
-                <input type="hidden" name="_next" value="https://leonardodalmazzo.github.io/Leonardo-Dalmazzo/thanks.html">
-                <input type="hidden" name="_autoresponse" value="Obrigado pelo contato! Recebi sua mensagem e retornarei em breve.">
+          <form action="https://formsubmit.co/leonardodalmazzo.dev@gmail.com" method="POST" autocomplete="off">
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_next" value="https://leonardodalmazzo.github.io/Leonardo-Dalmazzo/thanks.html">
+            <input type="hidden" name="_autoresponse"
+              value="Obrigado pelo contato! Recebi sua mensagem e retornarei em breve.">
 
-                <input class="w3-input w3-padding-16 w3-margin-bottom" type="text" name="name" placeholder="Seu nome completo" required>
-                <input class="w3-input w3-padding-16 w3-margin-bottom" type="email" name="email" placeholder="Seu melhor e-mail" required>
-                <textarea class="w3-input w3-padding-16 w3-margin-bottom" name="message" placeholder="Escreva sua mensagem aqui..." required></textarea>
-                <button class="w3-button w3-light-grey w3-padding-large w3-hover-red w3-block">
-                    <i class="fa fa-paper-plane"></i> ENVIAR
-                </button>
-            </form>
+            <input class="w3-input w3-padding-16 w3-margin-bottom" type="text" name="name"
+              placeholder="Seu nome completo" required>
+            <input class="w3-input w3-padding-16 w3-margin-bottom" type="email" name="email"
+              placeholder="Seu melhor e-mail" required>
+            <textarea class="w3-input w3-padding-16 w3-margin-bottom" name="message"
+              placeholder="Escreva sua mensagem aqui..." required></textarea>
+            <button class="w3-button w3-light-grey w3-padding-large w3-hover-red w3-block">
+              <i class="fa fa-paper-plane"></i> ENVIAR
+            </button>
+          </form>
         </div>
+      </div>
+
+      <!-- Redes sociais -->
+      <div class="w3-center w3-padding-32 contact-icons">
+        <a href="https://github.com/LeonardoDalmazzo" target="_blank" class="w3-hover-opacity"
+          style="color:#333; font-size:2rem; margin:0 10px;">
+          <i class="fa fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/leonardodalmazzo/?igsh=MXJhYTZ5NHcxcXZsYw%3D%3D" target="_blank"
+          class="w3-hover-opacity" style="color:#e1306c; font-size:2rem; margin:0 10px;">
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.instagram.com/leonardodalmazzo/?igsh=MXJhYTZ5NHcxcXZsYw%3D%3D" target="_blank"
+          class="w3-hover-opacity" style="color:#0e76a8; font-size:2rem; margin:0 10px;">
+          <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=55011991795884" target="_blank" class="w3-hover-opacity"
+          style="color:#25d366; font-size:2rem; margin:0 10px;">
+          <i class="fa fa-whatsapp"></i>
+        </a>
+      </div>
+
+      <!-- Footer -->
+      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <p class="w3-medium">Powered by ADML, utilizando <a href="https://www.w3schools.com/w3css/default.asp"
+            target="_blank" class="w3-text-deep-orange w3-hover-red">w3.css</a>. <br>Inspirado em um template pronto
+          onde
+          adaptei, traduzi e corrigi o layout. <br>Para mais informações acesse: <a
+            href="https://github.com/LeonardoDalmazzo/firstPortfolio" target="_blank"
+            class="w3-text-deep-orange w3-hover-red">https://github.com/LeonardoDalmazzo/firstPortfolio</a></p>
+        <!-- End footer -->
+      </footer>
+
+      <!-- END PAGE CONTENT -->
     </div>
-
-    <!-- Redes sociais -->
-    <div class="w3-center w3-padding-32 contact-icons">
-        <a href="https://github.com/LeonardoDalmazzo" target="_blank" class="w3-hover-opacity" style="color:#333; font-size:2rem; margin:0 10px;">
-            <i class="fa fa-github"></i>
-        </a>
-        <a href="https://www.instagram.com/leonardodalmazzo/?igsh=MXJhYTZ5NHcxcXZsYw%3D%3D" target="_blank" class="w3-hover-opacity" style="color:#e1306c; font-size:2rem; margin:0 10px;">
-            <i class="fa fa-instagram"></i>
-        </a>
-        <a href="https://www.instagram.com/leonardodalmazzo/?igsh=MXJhYTZ5NHcxcXZsYw%3D%3D" target="_blank" class="w3-hover-opacity" style="color:#0e76a8; font-size:2rem; margin:0 10px;">
-            <i class="fa fa-linkedin"></i>
-        </a>
-        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=55011991795884" target="_blank" class="w3-hover-opacity" style="color:#25d366; font-size:2rem; margin:0 10px;">
-            <i class="fa fa-whatsapp"></i>
-        </a>
-    </div>
-</div>
-
-    <!-- Footer -->
-    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-      <p class="w3-medium">Powered by ADML, utilizando <a href="https://www.w3schools.com/w3css/default.asp"
-          target="_blank" class="w3-text-deep-orange w3-hover-red">w3.css</a>. <br>Inspirado em um template pronto
-        onde
-        adaptei, traduzi e corrigi o layout. <br>Para mais informações acesse: <a
-          href="https://github.com/LeonardoDalmazzo/firstPortfolio" target="_blank"
-          class="w3-text-deep-orange w3-hover-red">https://github.com/LeonardoDalmazzo/firstPortfolio</a></p>
-      <!-- End footer -->
-    </footer>
-
-    <!-- END PAGE CONTENT -->
-  </div>
 
 </body>
 
